@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Digital Clock & Date.</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
+
+  <style media="screen">
+
+      body{
+        background-color: #173956;
+      }
+       #clock{
+         font-size : 100px;
+         margin: 150px 50px 50px 50px;
+         font-family: 'Noto Sans', sans-serif;
+
+       }
+       #time{
+         font-size : 100px;
+         margin: 80px 50px 50px 50px;
+         font-family: 'Noto Sans', sans-serif;
+
+       }
+    </style>
+</head>
+<body>
+
+
+  <h1 class="wow heartBeat" id="clock"></h1>
+  <h1 class="wow zoomInRight" id="time"></h1>
+
+  <script src="digitalClock.js"></script>
+
+<!-- Animation -->
+
+  <script src="wow.min.js"></script>
+  <script>
+		new WOW().init();
+	</script>
+
+</body>
+</html>
